@@ -1,0 +1,61 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  text-align: center;
+  padding: 100px;
+}
+
+.navbar {
+  font-weight: bold;
+  background-color: rgb(153, 150, 230);
+}
+
+img {
+  width: 40vw;
+  height: 60vh;
+  margin: auto;
+}
+
+.information {
+  font-size: 20px;
+  width: 100vw;
+  margin-top: 15mm;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25mm;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#info {
+  margin-right: 60mm;
+  margin-left: 60mm;
+  margin-top: 25mm;
+  margin-bottom: 25mm;
+}
+
+h5 {
+  text-align: start;
+}
+
+.row {
+  margin-top: 20mm;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20mm;
+}
+
+.col-sm-5 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container2 {
+  width: 100% !important;
+  /*   margin-left: auto;
+  margin-right: auto; */
+  margin-top: 10mm;
+  margin-bottom: 10mm;
+}
