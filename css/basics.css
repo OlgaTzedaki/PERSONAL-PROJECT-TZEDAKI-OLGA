@@ -59,3 +59,42 @@ h5 {
   margin-top: 10mm;
   margin-bottom: 10mm;
 }
+#contactPageImg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  height: auto;
+  margin-top: 5mm;
+}
+#faq {
+  text-align: center;
+  margin-top: 20mm;
+  margin-left: 10mm;
+  margin-right: 10mm;
+  margin-bottom: 10mm;
+  font-size: x-large;
+}
+#aboutUs {
+  margin-top: 12.5mm;
+  text-align: center;
+  margin-bottom: 10mm;
+}
+
+#aboutUS {
+  text-align: center;
+  width: 70% !important;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: left;
+  margin-top: 15mm;
+}
+
+#aboutPageImg {
+  margin-right: 30px;
+  width: 400px;
+  height: 400px;
+}
