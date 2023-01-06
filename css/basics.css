@@ -123,3 +123,36 @@ h5 {
 
   margin-top: 12.5mm;
 }
+
+#article1 {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+
+#newsletterHeadings {
+  text-align: center;
+}
+
+#decemberTitle {
+  padding: 20px !important;
+}
+
+#carousel {
+  padding-top: 10px;
+  height: auto;
+}
+
+#reflection {
+  padding: 25px;
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-self: auto;
+}
+
+#reflectionDiv {
+  margin: auto;
+}
