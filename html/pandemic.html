@@ -1,6 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>AllThingsTeens</title>
@@ -14,7 +65,7 @@
     <link rel="stylesheet" href="/css/basics.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg NavBarMenu sticky-NavBar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><em><strong>AllThingsTeens</strong></em></a
@@ -95,45 +146,107 @@
 <h1>
   <strong>Covid - 19 pandemic: The aftermath</strong>
 </h1>
-<img src="/assets/pandemic.jpg"/>
+
+<div
+id="carouselExampleSlidesOnly"
+class="carousel slide"
+data-bs-ride="carousel"
+>
+<div class="carousel-inner" id="carousel">
+  <div class="carousel-item active">
+    <img
+      src="/assets/pandemic.jpg"
+      class="d-block w-100"
+      alt="Christmas tree"
+    />
+  </div>
+  <div class="carousel-item">
+    <img
+      src="/assets/pandemic2.jpeg"
+      class="d-block w-100"
+      alt="Snowy mountains"
+    />
+  </div>
+  <div class="carousel-item">
+    <img src="/assets/pandemic3.jpeg" class="d-block w-100" alt="A cup" />
+  </div>
+</div>
+</div>
+
 
 <div>
-  <p>
-   
+  
+  <h2 id="question"><strong> 
+What does 2023 have in store for us? </h2>
+  </strong><style>
+  #question{
+    text-align: center;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+    }
 
-What does 2023 have in store for us? 
-There is currently a war raging in Ukraine, a climate catastrophe on stand-by, and our pandemic - caused wounds still healing. To be honest, while this might seem pessimistic, I don't think we will ever fully recover from coronavirus.
-<br></br>So, in this era of uncertainty, the proper way of moving forward entails looking back, and reflecting. <br></br>
-Numbers often make points clearer. This certainly applies to the covid - 19 case. 
+    #statement{
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+    #statement2{
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-top:20px;
+      padding-bottom: 20px;
+    }
+      #depressionImg
+    {
+      padding-left: 200px;
+      padding-right: 200px;
+      width: auto !important;
+    }
+</style>
+
+<p id="pandemic1">
+  There is currently a war raging in Ukraine, a climate catastrophe on stand-by, and our pandemic - caused wounds still healing. To be honest, while this might seem pessimistic, I don't think we will ever fully recover from coronavirus.
+  <br></br>So, in this era of uncertainty, the proper way of moving forward entails looking back, and reflecting. <br></br>
+  Numbers often make points clearer. This certainly applies to the covid - 19 case. 
 <br></br>
+
 <strong>6,702,115</strong> is the total number of deaths to this day. <br></br>
-A total of <strong>662,757,682</strong> people have got sick, possibly having been set to face covid - related medical "surprises" in the near future. 
+  A total of <strong>662,757,682</strong> people have got sick, possibly having been set to face covid - related medical "surprises" in the near future. 
+  <br></br>
+
+  Thankfully, <strong>13,180,550,023</strong> vaccine doses have been distributed, which translates to <strong>65.1%</strong> of the population having being shielded from the disease.
+    <br></br>
+    </p>
+    <h3 id="statement">No matter how much we try to deny it, everything is different.</h3>
+    
+    <p id="pandemic2">
+    Since 2019, our habits have changed and our mindset has largely shifted. Social interaction, which was taken as a given, is now treated as a luxury or privilege. The rule became the exception. 
+    We were taught to appreciate what we were deprived of: Nature. I do hope that this will result in greater climate awareness and, thus, action. Plus, what I think is the most important "gift" acquired by this transformative experience 
+    is recognizing the worth of simplicity. Things we used to take for granted, we now hold dear. It might be a phone call, a video call, or even a "good morning" text; a chance to socialise. In a sense, the quarantine helped us 
+    form bonds and strengthened the already existing ones, for we concentrated all of our efforts on staying connected with each other. 
+    <br></br>
+    Apart from the social aspect of things, confinement was also critical in reconnecting with ourselves. I have had multiple people say to me that the quarantine permitted them to invest time in long-lost hobbies, develop their skills, and get to
+    know themselves better. Sometimes, spending time alone is what one needs in order to deeply think without external influences and stimuli interrupting the train of thought. While technology and fluid work ethics did not really permit that, a greater sense of serenity or some "peace and quiet" could be found in our homes.  
+
+
 <br></br>
-Thankfully, <strong>13,180,550,023</strong> vaccine doses have been distributed, which translates to <strong>65.1%</strong> being shielded from the disease.
+
+
+We should not forget the "practicality" of being quarantined: we all got more familiar with technology and habits such as wearing a mask and regurarly applying antiseptic/antibacterial lotions became a core part of our mentality. That's a wholesome habit to have adopted. A win is a win!  
 <br></br>
+However, it would be a lie saying that the quarantine did not present us with any challenges. We might have remained indoors, but life still happened. And life isn't all sunshine and rainbows. There are also clouds. But, every cloud has 
+a silver lining. Frienships and relationships were tested, and some of them were probably put an end to. Would it have happened if it weren't for the pandemic? Maybe; maybe not. We'll never know, so we'd better believe that it was to both parties' benefit. 
 
-Since 2019, our habits have changed and our mindset has largely shifted. Social interaction, which was taken as a given, was now treated as a luxury or privilege, something which stands true for some people. 
-We were taught to appreciate what we were deprived of: Nature. I do hope that this will result in greater climate awareness and, thus, action. Plus, what I think is the most important "gift" acquired by this transformative experience 
-is learning to recognize the worth of simplicity. Things we used to take for granted, we now hold dear. It might be a phone call, a video call, or even a "good morning" text; a chance to socialise. In a sense, the quarantine helped us 
-form bonds and strengthened the already existing ones for we concentrated all of our efforts on staying connected with each other. 
+Some had to also cope with the loss of loved ones and experience grief and mourning for the very first time. A depressing yet unavoidable experience which defines us. So, all things considered, coronavirus was a true test; one that we couldn't possibly have prepared ourselves for. 
 <br></br>
-Apart from the social aspect of things, confinement was also critical in reconnecting with ourselves. I have had multiple people say to me that the quarantine permitted them to invest time in long-lost hobbies, develop their skills, and get to
-know themselves better. I do think this was beneficial but not for the children, whose mental agility, communication skills, are still being formed and they thrive in non - isolated environments. 
+</p>
+<img src="/assets/depression.webp" id="depressionImg"/>
+<h3 id="statement2">A final note</h3>
+    <p id="pandemic3">
+I believe that we should approach what happened as a blessing. One can only identify what brings one joy only when everything is taken away. Once this happens, self - awareness follows; a quality whose importance can be compared to no other's. Employed with this,
+as well as perseverance and a good dose of courage, we can face anything. 
 
-<br></br>
-We should not forget the "practicality" of being quarantined: we all got more familiar with technology and habits such as wearing a mask and regurarly applying antiseptic antibacterial lotions became a core part of our mentality. A win is a win!  
-<br></br>
-However, it would be a lie saying that the quarantine did not present us with any challenges. We might have remained indoors, but life still happened. And life isn't all sunshine and rainbows. Frienships and relationships were tested, and some of them were probably put an end to.
-Some had to also cope with the loss of loved ones and experience grief and mourning for the very first time. So, all things considered, coronavirus was a true test; one that we couldn't possibly have prepared ourselves for. 
-<br></br>
-
-I believe that we should approach what happened as a blessing. One can only identify what brings one joy only when everything is taken away. Once this happens, self - awareness (a quality whose importance can be compared to no other's) follows. Employed with this,
-as well as a stronger sense of perseverance and a good dose of courage, we can face anything. 
-
-Sometimes it might feel as if we're all part of a billion- dollar, full - on dystopian film. Well, even if we approach it this way, just remember that almost all Hollywood productions have a happy ending :) 
-
-
-
+Sometimes it might feel as if we're all part of a billion- dollar, full - on dystopian film. Well, even if we approach it this way, just remember that almost all Hollywood productions have a happy ending 😉 (with the unorforgivable, to my mind, "La La Land" exception!)  
 
 </p>
 </div>

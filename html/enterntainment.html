@@ -1,6 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>AllThingsTeens</title>
@@ -14,7 +67,7 @@
     <link rel="stylesheet" href="/css/basics.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg NavBarMenu sticky-NavBar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><em><strong>AllThingsTeens</strong></em></a
@@ -90,56 +143,104 @@
       </div>
     </nav>
 
-    <div class="col-lg-3 d-flex align-items-stretch">
-      <div class="card" style="width: 18rem">
-        <img src="" class="card-img-top" alt="Cover picture" />
-        <div class="card-body">
-          <h5 class="card-title">
-            <strong> 2010’s shows that SCREAM nostalgia</strong>
-          </h5>
-          <p class="card-text">Take a stroll down memory lane!</p>
-          <a
-            href="/html/btrArticle.html"
-            target="_blank"
-            class="btn btn-primary"
-            >Click here</a
-          >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 d-flex align-items-stretch">
+          <div class="card" style="width: 20rem">
+            <img
+              src="/assets/kids-watching-tv.jpg"
+              class="card-img-top"
+              alt="Cover picture"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong> 2010’s shows that SCREAM nostalgia</strong>
+              </h5>
+              <p class="card-text">Take a stroll down memory lane!</p>
+              <a
+                href="/html/btrArticle.html"
+                target="_blank"
+                class="btn btn-primary"
+                >Click here</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
 
-    <div class="col-lg-3 d-flex align-items-stretch">
-      <div class="card" style="width: 18rem">
-        <img src="" class="card-img-top" alt="Cover picture" />
-        <div class="card-body">
-          <h5 class="card-title">
-            <strong> Tim Burton's "Wednesday" is SO worth the hype</strong>
-          </h5>
-          <p class="card-text">Or should I say, the <em>Hyde</em>?</p>
-          <a href="/html/wednesday.html" target="_blank" class="btn btn-primary"
-            >Click here</a
-          >
+        <div class="col-lg-3 d-flex align-items-stretch">
+          <div class="card" style="width: 20rem">
+            <img
+              src="/assets/wednesday1.jpeg"
+              class="card-img-top"
+              alt="Cover picture"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong> Tim Burton's "Wednesday" is SO worth the hype</strong>
+              </h5>
+              <p class="card-text">Or should I say, the <em>Hyde</em>?</p>
+              <a
+                href="/html/wednesday.html"
+                target="_blank"
+                class="btn btn-primary"
+                >Click here</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
 
-    <div class="col-lg-3 d-flex align-items-stretch">
-      <div class="card" style="width: 18rem">
-        <img src="" class="card-img-top" alt="Cover picture" />
-        <div class="card-body">
-          <h5 class="card-title">
-            <strong
-              >Cliffhangers, plot twists, mystery: These books have it
-              all</strong
-            >
-          </h5>
-          <p class="card-text">
-            Been looking for some book recs that are not *solely* BookTok -
-            derived? I've got your back.
-          </p>
-          <a href="/html/books.html" target="_blank" class="btn btn-primary"
-            >Click here</a
-          >
+        <div class="col-lg-3 d-flex align-items-stretch">
+          <div class="card" style="width: 20rem">
+            <img
+              src="/assets/books.jpeg"
+              class="card-img-top"
+              alt="Cover picture"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong
+                  >Cliffhangers, plot twists, mystery: These books have it
+                  all</strong
+                >
+              </h5>
+              <p class="card-text">
+                Been looking for some book recs that are not *solely* BookTok -
+                derived? I've got your back.
+              </p>
+              <a href="/html/books.html" target="_blank" class="btn btn-primary"
+                >Click here</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 d-flex align-items-stretch">
+          <div class="card" style="width: 20rem">
+            <img
+              src="/assets/lol.jpeg"
+              class="card-img-top"
+              alt="Cover picture"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong
+                  >"2023 Is Officially Here, And These 18 Tweets About New
+                  Year's Resolutions Will Have You Laughing Until 2024"
+                </strong>
+              </h5>
+              <p class="card-text">
+                Twitter is the most meme-worthy medium and an integral part of
+                our culture. Try to change my mind, because this Buzzfeed© post
+                made me LOL so hard.
+              </p>
+              <a
+                href="https://www.buzzfeed.com/shelbyheinrich/new-year-resolution-tweets-2023?origin=nofil"
+                target="_blank"
+                class="btn btn-primary"
+                >Go to buzzfeed.com</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>

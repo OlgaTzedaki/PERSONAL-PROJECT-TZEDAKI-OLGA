@@ -1,5 +1,12 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  text-align: left;
   background-color: rgb(255, 255, 255);
 }
 h1 {
@@ -9,7 +16,7 @@ h1 {
 
 .navbar {
   font-weight: bold;
-  background-color: rgb(153, 150, 230);
+  background-color: rgb(230, 182, 205);
 }
 
 img {
@@ -155,4 +162,40 @@ h5 {
 
 #reflectionDiv {
   margin: auto;
+}
+
+.sticky-NavBar {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.container2 {
+  width: 100% !important;
+  /*   margin-left: auto;
+  margin-right: auto; */
+  margin-top: 10mm;
+  margin-bottom: 10mm;
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+#pandemic1 {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+#pandemic2 {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+#pandemic3 {
+  padding-right: 200px;
+  padding-left: 200px;
 }
