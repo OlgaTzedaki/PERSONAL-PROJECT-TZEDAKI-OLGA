@@ -1,0 +1,202 @@
+body {
+  font-style: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  text-align: center;
+  padding: 100px;
+}
+
+.navbar {
+  font-weight: bold;
+  background-color: rgb(230, 182, 205);
+}
+
+img {
+  width: 40vw;
+  height: 60vh;
+  margin: auto;
+}
+
+.information {
+  font-size: 20px;
+  width: 100vw;
+  margin-top: 15mm;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25mm;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#info {
+  margin-right: 60mm;
+  margin-left: 60mm;
+  margin-top: 25mm;
+  margin-bottom: 25mm;
+}
+
+h5 {
+  text-align: start;
+}
+
+.row {
+  margin-top: 20mm;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20mm;
+}
+
+.col-sm-5 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container2 {
+  width: 100% !important;
+  /*   margin-left: auto;
+  margin-right: auto; */
+  margin-top: 10mm;
+  margin-bottom: 10mm;
+}
+#contactPageImg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  height: auto;
+  margin-top: 5mm;
+}
+#faq {
+  text-align: center;
+  margin-top: 20mm;
+  margin-left: 10mm;
+  margin-right: 10mm;
+  margin-bottom: 10mm;
+  font-size: x-large;
+}
+#aboutUs {
+  margin-top: 12.5mm;
+  text-align: center;
+  margin-bottom: 10mm;
+}
+
+#aboutUS {
+  text-align: center;
+  width: 70% !important;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: left;
+  margin-top: 15mm;
+}
+
+#aboutPageImg {
+  margin-right: 30px;
+  width: 400px;
+  height: 400px;
+}
+
+.contentList {
+  font-size: 20px;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 15mm;
+  margin-top: 5mm;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*cards*/
+.card img {
+  object-fit: cover;
+}
+
+.card-title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.card {
+  text-align: center;
+
+  margin-top: 12.5mm;
+}
+
+#article1 {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#newsletterHeadings {
+  text-align: center;
+}
+
+#decemberTitle {
+  padding: 20px !important;
+}
+
+#carousel {
+  padding-top: 10px;
+  height: auto;
+}
+
+#reflection {
+  padding: 25px;
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-self: auto;
+}
+
+#reflectionDiv {
+  margin: auto;
+}
+
+.sticky-NavBar {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.container2 {
+  width: 100% !important;
+  /*   margin-left: auto;
+  margin-right: auto; */
+  margin-top: 10mm;
+  margin-bottom: 10mm;
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+#pandemic1 {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+#pandemic2 {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+#pandemic3 {
+  padding-right: 200px;
+  padding-left: 200px;
+}
